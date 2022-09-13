@@ -1,8 +1,8 @@
 import React, {Component, useState} from "react";
-import '../styles/App.css';
+import '../styles/signup.css';
 
 
-const App = () => {
+const SignUp = () => {
 
 
   const [data, setdata]=useState({
@@ -141,4 +141,4 @@ console.log(data)
 }
 
 
-export default App;
+export default SignUp;
